@@ -87,7 +87,7 @@ namespace NumbersGame
 
                     if (userAnswer == "ja" || userAnswer == "Ja")
                     {
-                        Console.WriteLine("Kan du gissa vilket? \nDu får fem försök.");
+                        Console.WriteLine("Kan du gissa vilket? \nDu får fem försök.\nOm du vill spela igen skriv ja.\nOm du inte vill spela igen skriv nej.");
                         attempt = 0;
                         randomize();
                         maingame();
