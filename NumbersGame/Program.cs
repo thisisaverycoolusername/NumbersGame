@@ -82,12 +82,12 @@ namespace NumbersGame
                 }
                 while (userExit == false) //loops until user doesnt want to play anymore
                 {
-                    Console.WriteLine("Vill du spela igen?");
-                    string userAnswer = Console.ReadLine();
+                    Console.WriteLine("Vill du spela igen?\nOm du vill spela igen skriv ja.\nOm du inte vill spela igen skriv nej.");
+                    string userAnswer = Console.ReadLine();     
 
                     if (userAnswer == "ja" || userAnswer == "Ja")
                     {
-                        Console.WriteLine("Kan du gissa vilket? \nDu får fem försök.\nOm du vill spela igen skriv ja.\nOm du inte vill spela igen skriv nej.");
+                        Console.WriteLine("Kan du gissa vilket? \nDu får fem försök.");
                         attempt = 0;
                         randomize();
                         maingame();
